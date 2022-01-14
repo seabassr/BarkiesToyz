@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    tools:context = "com.example.barkiestoyz.Front.Main">
+    <!--Edit text for username-->
+    <EditText
+        android:id="@+id/input_user"
+        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:hint = "Username"
+        android:layout_above = "@+id/input_password"
+        android:layout_centerHorizontal = "true" />
+    <!--Edit text for password-->
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint = "Password"
+        android:layout_above = "@+id/login"
+        android:layout_centerHorizontal = "true"
+        android:inputType="textPassword" />
+    <!--Button to login-->
+    <Button
+        android:id="@+id/login"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:onClick="goLogin"
+        android:text="@string/Login"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal = "true" />
+    <!--Button to sign up-->
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:onClick="goCreate"
+        android:text="@string/Create"
+        android:layout_below = "@+id/login"
+        android:layout_centerHorizontal = "true" />
+    <!-- Adding images, to make GUI cute -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ball" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ball2" />
+</RelativeLayout>

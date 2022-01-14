@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "72866528902",
+    "firebase_url": "https://barkiestoyz-e35e7.firebaseio.com",
+    "project_id": "barkiestoyz-e35e7",
+    "storage_bucket": "barkiestoyz-e35e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72866528902:android:b24105b6ab118fe5c99b07",
+        "android_client_info": {
+          "package_name": "com.example.barkiestoyz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72866528902-j4jo05sm9e9tsj2gm2h952acphdg8c47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.barkiestoyz",
+            "certificate_hash": "28d237c4ca08361a9d0f2e7e9bfb60716a1f33d4"
+          }
+        },
+        {
+          "client_id": "72866528902-u9pbu0us46cgnhojjjojj97edo4g8lgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyVULnTz7eSHunGWE4YgjyS3yhjUKAIdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72866528902-u9pbu0us46cgnhojjjojj97edo4g8lgu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

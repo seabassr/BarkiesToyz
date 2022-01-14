@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A3DAE1</color>
+    <color name="colorPrimaryDark">#A3DAE1</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="payment">#75EAA0</color>
+    <color name="main">#DBF8F1</color>
+    <color name="fill">#FFFFFF</color>
+    <color name="accent">#A3DAE1</color>
+</resources>

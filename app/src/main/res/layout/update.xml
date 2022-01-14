@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context = "com.example.barkiestoyz.Front.AdminSide.Update">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/cloud" />
+    <!-- Title bar, for product and price-->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+        <TableRow>
+            <TextView
+                android:layout_width="205dp"
+                android:layout_height="50dp"
+                android:text="Product"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="205dp"
+                android:layout_height="50dp"
+                android:text="Price"
+                android:textSize="25sp" />
+        </TableRow>
+    </TableLayout>
+    <!-- Display all products in database -->
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/scrollView4">
+    </ScrollView>
+    <!-- Back button, goes back to admin page -->
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="205dp"
+        android:onClick="goBack"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Back"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
